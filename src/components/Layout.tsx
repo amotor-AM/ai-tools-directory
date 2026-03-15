@@ -33,6 +33,83 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
+
+        {/* Structured Data (LD+JSON) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://amotor-am.github.io/ai-tools-directory/#organization",
+                  "name": "AI Tools Directory",
+                  "url": "https://amotor-am.github.io/ai-tools-directory/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://amotor-am.github.io/ai-tools-directory/logo.png",
+                    "width": 512,
+                    "height": 512
+                  },
+                  "description": "Comprehensive directory of AI tools with reviews, comparisons, and alternatives.",
+                  "sameAs": []
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://amotor-am.github.io/ai-tools-directory/#website",
+                  "url": "https://amotor-am.github.io/ai-tools-directory/",
+                  "name": "AI Tools Directory",
+                  "description": "Discover and compare the best AI tools for 2026",
+                  "publisher": {
+                    "@id": "https://amotor-am.github.io/ai-tools-directory/#organization"
+                  },
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "CollectionPage",
+                  "@id": "https://amotor-am.github.io/ai-tools-directory/#webpage",
+                  "url": "https://amotor-am.github.io/ai-tools-directory/",
+                  "name": title,
+                  "description": description,
+                  "isPartOf": {
+                    "@id": "https://amotor-am.github.io/ai-tools-directory/#website"
+                  },
+                  "about": {
+                    "@id": "https://amotor-am.github.io/ai-tools-directory/#organization"
+                  },
+                  "primaryImageOfPage": {
+                    "@type": "ImageObject",
+                    "url": "https://amotor-am.github.io/ai-tools-directory/og-image.png",
+                    "width": 1200,
+                    "height": 630
+                  },
+                  "datePublished": "2026-03-15T00:00:00+00:00",
+                  "dateModified": "2026-03-15T00:00:00+00:00",
+                  "breadcrumb": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://amotor-am.github.io/ai-tools-directory/"
+                      }
+                    ]
+                  },
+                  "potentialAction": [
+                    {
+                      "@type": "ReadAction",
+                      "target": [
+                        "https://amotor-am.github.io/ai-tools-directory/"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       <div className="min-h-screen flex flex-col">
