@@ -1,0 +1,538 @@
+{
+  "lastResearched": "2026-03-15",
+  "notes": "Affiliate program details based on research. Commission rates, cookie durations, and payout structures are approximate and should be verified directly with each program before signup. Some programs are managed via affiliate networks (Impact, ShareASale, CJ, PartnerStack). Recurring commissions are especially valuable — prioritize those. Programs marked 'unavailable' may launch affiliate programs in the future, so worth re-checking periodically.",
+  "prioritySignups": [
+    {
+      "rank": 1,
+      "tool_slug": "surfer-seo",
+      "reason": "~$22/mo recurring per referral. High-intent SEO audience converts well. Plans start at $89/mo. 25% recurring via PartnerStack. 60-day cookie gives good attribution window."
+    },
+    {
+      "rank": 2,
+      "tool_slug": "synthesia",
+      "reason": "~$22/mo recurring per referral. Enterprise-grade AI video tool with $89/mo plans. 25% recurring via PartnerStack. 90-day cookie is generous. High average contract value."
+    },
+    {
+      "rank": 3,
+      "tool_slug": "copy-ai",
+      "reason": "~$22/mo for first year per referral. 45% commission is one of the highest rates. $49/mo plans. Via PartnerStack. One-time (first year) but the high rate compensates."
+    },
+    {
+      "rank": 4,
+      "tool_slug": "jasper",
+      "reason": "~$18/mo recurring per referral. Well-known brand with strong conversion. $59/mo plans. 30% recurring via Impact. Established affiliate program with reliable payouts."
+    },
+    {
+      "rank": 5,
+      "tool_slug": "frase-io",
+      "reason": "~$13.50/mo recurring per referral. Strong SEO content tool that pairs well with an AI tools directory. $45/mo plans. 30% recurring. Direct program."
+    },
+    {
+      "rank": 6,
+      "tool_slug": "pictory",
+      "reason": "~$11.70/mo recurring per referral. AI video editing is a growing niche. $39/mo plans. 30% recurring. 30-day cookie. Good for content creator audience."
+    },
+    {
+      "rank": 7,
+      "tool_slug": "canva",
+      "reason": "Up to $36 one-time per subscription sale. Massive brand recognition means high conversion rates. Huge user base and broad appeal. Via Impact. Volume play."
+    },
+    {
+      "rank": 8,
+      "tool_slug": "grammarly",
+      "reason": "$0.20 per free signup + $20 per premium activation. Extremely high volume potential — nearly everyone needs writing help. Via CJ/Impact. Passive income at scale."
+    },
+    {
+      "rank": 9,
+      "tool_slug": "elevenlabs",
+      "reason": "~$4.84/mo recurring per referral. AI voice is hot category. $22/mo starter plans but higher tiers exist. 22% recurring via PartnerStack. Growing fast."
+    },
+    {
+      "rank": 10,
+      "tool_slug": "fathom",
+      "reason": "~$5/mo recurring per referral at 25%. AI meeting assistant is mainstream category. Direct program. Strong product-market fit means good retention and long-term recurring income."
+    }
+  ],
+  "programs": [
+    {
+      "tool_slug": "chatgpt",
+      "tool_name": "ChatGPT",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "OpenAI does not offer a traditional affiliate program for ChatGPT. They have occasionally run referral incentives for enterprise accounts but nothing publicly available for content creators or publishers. Monitor for changes as they expand monetization."
+      }
+    },
+    {
+      "tool_slug": "claude",
+      "tool_name": "Claude",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "Anthropic does not have a public affiliate program for Claude as of early 2026. Given their rapid growth, this may change. Worth checking periodically. Could potentially be introduced via a network like Impact or PartnerStack."
+      }
+    },
+    {
+      "tool_slug": "gemini",
+      "tool_name": "Gemini",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "Google does not offer affiliate commissions for Gemini. Google Workspace has some referral programs but Gemini as a standalone product does not have an affiliate channel. Unlikely to change given Google's distribution model."
+      }
+    },
+    {
+      "tool_slug": "grok",
+      "tool_name": "Grok",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "X/Twitter does not have an affiliate program for Grok. Grok is bundled with X Premium subscriptions, and X does not run traditional affiliate marketing programs. No indication this will change."
+      }
+    },
+    {
+      "tool_slug": "jasper",
+      "tool_name": "Jasper",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Jasper Affiliate Program",
+        "commission_rate": "30% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "30 days",
+        "signup_url": "Apply via Impact.com — search 'Jasper' in the Impact marketplace, or visit Jasper's website footer for their affiliate/partners page",
+        "network": "Impact",
+        "approval_difficulty": "moderate",
+        "estimated_commission_per_sale": "$18/month recurring (based on $59/mo Creator plan)",
+        "notes": "One of the most established AI writing tool affiliate programs. 30% recurring means you earn for the lifetime of the customer. Higher-tier Business plans ($99+/mo) yield even more per referral. Impact provides reliable tracking and payouts. Moderate approval — they review your website/traffic."
+      }
+    },
+    {
+      "tool_slug": "rytr",
+      "tool_name": "Rytr",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Rytr Affiliate Program",
+        "commission_rate": "30% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "60 days",
+        "signup_url": "Search 'Rytr affiliate program' — accessible via Rytr's website, typically under a Partners or Affiliate link in the footer",
+        "network": "direct",
+        "approval_difficulty": "easy",
+        "estimated_commission_per_sale": "$8.70/month recurring (based on $29/mo Unlimited plan)",
+        "notes": "Direct affiliate program with generous 60-day cookie. Lower price point means lower per-sale commission but the tool is affordable and converts well for budget-conscious users. Easy approval makes it a quick win. Dashboard is straightforward."
+      }
+    },
+    {
+      "tool_slug": "copy-ai",
+      "tool_name": "Copy.ai",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Copy.ai Partner Program",
+        "commission_rate": "45% for first year",
+        "commission_type": "one-time",
+        "cookie_duration": "30 days",
+        "signup_url": "Apply via PartnerStack — search 'Copy.ai' in the PartnerStack marketplace",
+        "network": "PartnerStack",
+        "approval_difficulty": "moderate",
+        "estimated_commission_per_sale": "$22/month for first 12 months (based on $49/mo Pro plan)",
+        "notes": "One of the highest commission rates in the AI writing space at 45%. Commission is for the first year of the customer's subscription, not lifetime recurring. Still very lucrative — a single referral can earn ~$264 over 12 months. PartnerStack provides good tracking and reporting. They have been expanding into enterprise workflows which could increase average deal size."
+      }
+    },
+    {
+      "tool_slug": "veo",
+      "tool_name": "Veo 3.2",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "Veo is a Google product (DeepMind). Google does not offer affiliate commissions for individual AI products. Veo is accessed through Google Cloud / Vertex AI or integrated into other Google products. No affiliate program exists or is expected."
+      }
+    },
+    {
+      "tool_slug": "sora",
+      "tool_name": "Sora 2",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "Sora is an OpenAI product. OpenAI does not run a traditional affiliate program for any of its products including Sora. Access is bundled with ChatGPT Plus/Pro subscriptions. No separate affiliate opportunity."
+      }
+    },
+    {
+      "tool_slug": "synthesia",
+      "tool_name": "Synthesia",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Synthesia Affiliate Program",
+        "commission_rate": "25% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "90 days",
+        "signup_url": "Apply via PartnerStack — search 'Synthesia' in the PartnerStack marketplace",
+        "network": "PartnerStack",
+        "approval_difficulty": "moderate",
+        "estimated_commission_per_sale": "$22/month recurring (based on $89/mo Starter plan)",
+        "notes": "Excellent affiliate program with 90-day cookie — one of the longest in the space. 25% recurring on plans starting at $89/mo means strong per-referral revenue. Enterprise deals can be significantly higher. AI video is a high-growth category. PartnerStack provides reliable tracking. They look for quality content partners."
+      }
+    },
+    {
+      "tool_slug": "elevenlabs",
+      "tool_name": "ElevenLabs",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "ElevenLabs Affiliate Program",
+        "commission_rate": "22% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "30 days",
+        "signup_url": "Apply via PartnerStack — search 'ElevenLabs' in the PartnerStack marketplace",
+        "network": "PartnerStack",
+        "approval_difficulty": "moderate",
+        "estimated_commission_per_sale": "$4.84/month recurring (based on $22/mo Starter plan, higher on Scale/Pro plans)",
+        "notes": "AI voice synthesis is a rapidly growing market. While the starter plan commission is modest, many users upgrade to Scale ($99/mo = ~$21.78/mo commission) or Pro ($330/mo = ~$72.60/mo commission) plans. PartnerStack handles tracking. The tool has strong viral appeal and high retention rates."
+      }
+    },
+    {
+      "tool_slug": "notebooklm",
+      "tool_name": "NotebookLM",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "NotebookLM is a free Google product. There is no affiliate program and no paid tier to refer users to. Google may introduce premium features in the future, but currently there is no monetization opportunity via affiliate marketing."
+      }
+    },
+    {
+      "tool_slug": "cursor",
+      "tool_name": "Cursor",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "Cursor does not have a public affiliate program as of early 2026. They have been focused on product development and organic growth. Given their rapid adoption among developers, an affiliate program may be introduced in the future. Worth monitoring."
+      }
+    },
+    {
+      "tool_slug": "gamma",
+      "tool_name": "Gamma",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "Gamma has a referral program that gives credits to both referrer and referee, but it is not a traditional affiliate program with cash commissions. The credits are applied to Gamma usage, not paid out. Not suitable for affiliate monetization in the traditional sense."
+      }
+    },
+    {
+      "tool_slug": "fathom",
+      "tool_name": "Fathom",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Fathom Affiliate Program",
+        "commission_rate": "25% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "30 days",
+        "signup_url": "Search 'Fathom AI affiliate program' — typically found on their website under Partners or Affiliate section",
+        "network": "direct",
+        "approval_difficulty": "easy",
+        "estimated_commission_per_sale": "$5/month recurring (based on ~$19/mo plan)",
+        "notes": "Direct affiliate program with recurring commissions. AI meeting assistants are becoming essential for remote teams, so this is a growing market. Lower per-sale amount but strong retention means long-term recurring income. Easy approval for most content creators. Note: Verify this is Fathom the AI meeting tool, not Fathom Analytics — they are different companies."
+      }
+    },
+    {
+      "tool_slug": "grammarly",
+      "tool_name": "Grammarly",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Grammarly Affiliate Program",
+        "commission_rate": "$0.20 per free signup, $20 per Premium activation",
+        "commission_type": "one-time",
+        "cookie_duration": "90 days",
+        "signup_url": "Apply via CJ Affiliate (Commission Junction) or Impact.com — search 'Grammarly' on either network",
+        "network": "CJ / Impact",
+        "approval_difficulty": "moderate",
+        "estimated_commission_per_sale": "$0.20 per free install, $20 per Premium subscription",
+        "notes": "One of the highest-volume affiliate programs in the writing tools space. The $0.20 per free signup adds up at scale since nearly everyone can use Grammarly. The $20 Premium activation bonus is solid. 90-day cookie is generous. Available on both CJ and Impact. Very well-established program with reliable tracking and payments. Massive brand recognition drives high conversion rates."
+      }
+    },
+    {
+      "tool_slug": "writesonic",
+      "tool_name": "Writesonic",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Writesonic Affiliate Program",
+        "commission_rate": "30% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "30 days",
+        "signup_url": "Search 'Writesonic affiliate program' — typically found on their website under Affiliates or Partners section",
+        "network": "direct",
+        "approval_difficulty": "easy",
+        "estimated_commission_per_sale": "$4.80/month recurring (based on $16/mo plan, higher on Business plans)",
+        "notes": "Direct affiliate program with 30% recurring commissions. Lower base price point means lower per-sale commission on starter plans, but Business plans ($12.67-$66.67/mo) and Enterprise deals can yield more. They also offer Chatsonic and other products which may increase average order value. Easy to get approved."
+      }
+    },
+    {
+      "tool_slug": "quillbot",
+      "tool_name": "QuillBot",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "QuillBot Affiliate Program",
+        "commission_rate": "~20% per sale",
+        "commission_type": "one-time",
+        "cookie_duration": "30 days",
+        "signup_url": "Apply via Impact.com — search 'QuillBot' in the Impact marketplace",
+        "network": "Impact",
+        "approval_difficulty": "easy",
+        "estimated_commission_per_sale": "$4-20 per sale (depending on plan and billing cycle)",
+        "notes": "QuillBot is widely used by students and writers for paraphrasing and grammar checking. One-time commission per sale rather than recurring. Popular tool with high search volume, especially among students. Impact provides reliable tracking. Commission varies by plan selected (monthly vs annual)."
+      }
+    },
+    {
+      "tool_slug": "midjourney",
+      "tool_name": "Midjourney",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "Midjourney does not have an official affiliate program. They have grown primarily through organic word-of-mouth and community (originally Discord-based). Despite being one of the most popular AI image generators, they have not introduced affiliate marketing. This is a missed opportunity — monitor for changes."
+      }
+    },
+    {
+      "tool_slug": "leonardo-ai",
+      "tool_name": "Leonardo.AI",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Leonardo.AI Affiliate/Referral Program",
+        "commission_rate": "~20% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "30 days",
+        "signup_url": "Search 'Leonardo.AI affiliate program' — check their website for current partner/affiliate page",
+        "network": "direct",
+        "approval_difficulty": "easy",
+        "estimated_commission_per_sale": "$2.40-$12/month recurring (depending on plan, $12-$60/mo range)",
+        "notes": "Leonardo.AI offers an affiliate/referral program with recurring commissions. As a popular Midjourney alternative with a more accessible interface, it converts well. Multiple pricing tiers mean potential for higher commissions on premium plans. The AI image generation space is competitive but Leonardo has strong positioning."
+      }
+    },
+    {
+      "tool_slug": "dall-e-3",
+      "tool_name": "DALL-E 3",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "DALL-E 3 is an OpenAI product, integrated into ChatGPT and available via API. OpenAI does not run affiliate programs for any of its products. No separate purchase path for DALL-E 3 — it's bundled with ChatGPT Plus/Pro subscriptions."
+      }
+    },
+    {
+      "tool_slug": "descript",
+      "tool_name": "Descript",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Descript Affiliate Program",
+        "commission_rate": "15-20%",
+        "commission_type": "one-time",
+        "cookie_duration": "30 days",
+        "signup_url": "Apply via Impact.com — search 'Descript' in the Impact marketplace",
+        "network": "Impact",
+        "approval_difficulty": "moderate",
+        "estimated_commission_per_sale": "$4-16 per sale (based on $24-$33/mo plans, one-time commission)",
+        "notes": "Descript is a powerful AI-powered video/audio editing tool popular with podcasters and content creators. Commission is one-time (not recurring) at 15-20%. Via Impact for reliable tracking. The tool has strong appeal to content creators who are actively looking for editing solutions. Business plan ($33/mo) provides higher commissions."
+      }
+    },
+    {
+      "tool_slug": "pictory",
+      "tool_name": "Pictory",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Pictory Affiliate Program",
+        "commission_rate": "30% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "30 days",
+        "signup_url": "Search 'Pictory affiliate program' — check their website for current affiliate signup page",
+        "network": "direct",
+        "approval_difficulty": "easy",
+        "estimated_commission_per_sale": "$11.70/month recurring (based on $39/mo Standard plan)",
+        "notes": "Solid affiliate program with 30% recurring commissions. Pictory is popular for turning blog posts and scripts into videos using AI. Good for content marketing audience. Teams plan ($99/mo) would yield ~$29.70/mo recurring per referral. Easy approval process. Direct program means dealing with them directly for payments."
+      }
+    },
+    {
+      "tool_slug": "surfer-seo",
+      "tool_name": "Surfer SEO",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Surfer SEO Affiliate Program",
+        "commission_rate": "25% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "60 days",
+        "signup_url": "Apply via PartnerStack — search 'Surfer SEO' in the PartnerStack marketplace, or visit Surfer's website for their affiliate page",
+        "network": "PartnerStack",
+        "approval_difficulty": "moderate",
+        "estimated_commission_per_sale": "$22/month recurring (based on $89/mo Essential plan)",
+        "notes": "Excellent affiliate program for SEO-focused content. 25% recurring on plans starting at $89/mo is very lucrative. 60-day cookie provides good attribution. SEO professionals tend to be loyal subscribers with low churn, meaning long-term recurring income. Scale plan ($179/mo) yields ~$44.75/mo recurring. PartnerStack provides reliable tracking. Perfect fit for an AI tools directory with SEO audience."
+      }
+    },
+    {
+      "tool_slug": "frase-io",
+      "tool_name": "Frase.io",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Frase.io Affiliate Program",
+        "commission_rate": "30% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "60 days",
+        "signup_url": "Search 'Frase.io affiliate program' — check their website for affiliate signup, typically under Partners section",
+        "network": "direct",
+        "approval_difficulty": "easy",
+        "estimated_commission_per_sale": "$13.50/month recurring (based on $45/mo Team plan)",
+        "notes": "Strong affiliate program with 30% recurring and 60-day cookie. Frase is an AI-powered SEO content tool that competes with Surfer SEO. Good complement to have both in your affiliate portfolio. Direct program with straightforward signup. The SEO content optimization niche has high buyer intent and good conversion rates."
+      }
+    },
+    {
+      "tool_slug": "otter-ai",
+      "tool_name": "Otter.ai",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Otter.ai Affiliate/Referral Program",
+        "commission_rate": "~25%",
+        "commission_type": "one-time",
+        "cookie_duration": "30 days",
+        "signup_url": "Search 'Otter.ai affiliate program' — check their website or look for their program on affiliate networks",
+        "network": "direct",
+        "approval_difficulty": "moderate",
+        "estimated_commission_per_sale": "$4-25 per sale (depending on plan, $16.99-$40/mo range)",
+        "notes": "Otter.ai is a popular AI meeting transcription tool. Their affiliate/referral program offers approximately 25% commission. Competes with Fathom and Fireflies in the AI meeting assistant space. Strong brand recognition. Commission structure may vary — verify current terms before signing up."
+      }
+    },
+    {
+      "tool_slug": "fireflies-ai",
+      "tool_name": "Fireflies.ai",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Fireflies.ai Affiliate Program",
+        "commission_rate": "20-30% recurring",
+        "commission_type": "recurring",
+        "cookie_duration": "30 days",
+        "signup_url": "Search 'Fireflies.ai affiliate program' — check their website for partner/affiliate page",
+        "network": "direct",
+        "approval_difficulty": "easy",
+        "estimated_commission_per_sale": "$4-15/month recurring (based on $18-$39/mo plans)",
+        "notes": "Fireflies.ai offers recurring commissions in the 20-30% range for their AI meeting assistant. Good product with growing market. Multiple pricing tiers (Pro $18/mo, Business $29/mo, Enterprise $39/mo). Direct program. AI meeting assistants are becoming essential for remote/hybrid teams, so this category has strong growth potential."
+      }
+    },
+    {
+      "tool_slug": "github-copilot",
+      "tool_name": "GitHub Copilot",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "GitHub Copilot is a Microsoft/GitHub product. Neither Microsoft nor GitHub offers a traditional affiliate program for Copilot. Microsoft has some partner programs but they are focused on enterprise resellers, not content affiliates. The developer audience is valuable but there's no way to monetize Copilot referrals through affiliate marketing."
+      }
+    },
+    {
+      "tool_slug": "canva",
+      "tool_name": "Canva",
+      "affiliate_program": {
+        "available": true,
+        "program_name": "Canva Affiliate Program",
+        "commission_rate": "Up to $36 per subscription",
+        "commission_type": "one-time",
+        "cookie_duration": "30 days",
+        "signup_url": "Apply via Impact.com — search 'Canva' in the Impact marketplace",
+        "network": "Impact",
+        "approval_difficulty": "moderate",
+        "estimated_commission_per_sale": "Up to $36 per Canva Pro subscription",
+        "notes": "Canva's affiliate program pays up to $36 per new Canva Pro subscription. One-time commission (not recurring). Massive brand recognition and broad appeal means high conversion rates across many audiences. Canva Pro is $12.99/mo or $119.99/yr. Via Impact for reliable tracking. The AI features (Magic Studio, text-to-image, etc.) make it increasingly relevant for an AI tools directory. High volume potential due to universal appeal."
+      }
+    },
+    {
+      "tool_slug": "notion-ai",
+      "tool_name": "Notion AI",
+      "affiliate_program": {
+        "available": false,
+        "program_name": null,
+        "commission_rate": null,
+        "commission_type": null,
+        "cookie_duration": null,
+        "signup_url": null,
+        "network": null,
+        "approval_difficulty": null,
+        "estimated_commission_per_sale": null,
+        "notes": "Notion has a limited referral program that provides credits (typically $5-10 credit per referral) applied to your Notion account, not cash payouts. This is not a traditional affiliate program and cannot be used for monetization. Notion AI is an add-on to Notion subscriptions ($10/member/month). No cash-based affiliate program exists. Credits-based only."
+      }
+    }
+  ]
+}
