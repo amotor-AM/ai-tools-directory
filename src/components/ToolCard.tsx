@@ -21,21 +21,26 @@ export default function ToolCard({ tool }: ToolCardProps) {
 
   return (
     <Link href={`/tools/${tool.slug}`}>
-      <div className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow cursor-pointer h-full flex flex-col">
+      <div className="group bg-white rounded-xl border border-gray-200 p-6 hover:shadow-2xl hover:border-blue-300 hover:-translate-y-1 transition-all duration-300 cursor-pointer h-full flex flex-col">
         <div className="flex items-start justify-between mb-4">
-          <h3 className="text-xl font-bold text-gray-900">{tool.name}</h3>
+          <div className="flex-1">
+            <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors mb-1">
+              {tool.name}
+            </h3>
+            {category && (
+              <p className="text-xs text-gray-500 font-medium uppercase tracking-wider">
+                {category.name}
+              </p>
+            )}
+          </div>
           {tool.pricing.free && (
-            <span className="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">
-              Free
+            <span className="bg-gradient-to-r from-green-400 to-green-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+              FREE
             </span>
           )}
         </div>
         
-        {category && (
-          <p className="text-sm text-gray-500 mb-2">{category.name}</p>
-        )}
-        
-        <p className="text-gray-600 text-sm mb-4 flex-grow">
+        <p className="text-gray-600 text-sm mb-4 flex-grow line-clamp-3">
           {tool.shortDescription}
         </p>
         
@@ -43,7 +48,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
           {tool.tags.slice(0, 3).map(tag => (
             <span 
               key={tag} 
-              className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded"
+              className="bg-gradient-to-r from-blue-50 to-purple-50 text-blue-700 text-xs px-3 py-1 rounded-full font-medium border border-blue-100"
             >
               {tag}
             </span>
@@ -51,9 +56,12 @@ export default function ToolCard({ tool }: ToolCardProps) {
         </div>
         
         <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-          <span className="text-primary font-semibold">{priceDisplay}</span>
-          <span className="text-sm text-primary hover:text-blue-700">
-            View Details →
+          <span className="text-blue-600 font-bold text-sm">{priceDisplay}</span>
+          <span className="flex items-center text-sm font-semibold text-blue-600 group-hover:translate-x-1 transition-transform">
+            View Details
+            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
           </span>
         </div>
       </div>
