@@ -7,13 +7,15 @@ interface LayoutProps {
   title?: string
   description?: string
   keywords?: string
+  canonicalUrl?: string
 }
 
 export default function Layout({ 
   children, 
   title = 'AI Tools Directory - Find the Best AI Tools for 2026',
   description = 'Discover and compare the best AI tools for 2026. Reviews, pricing, features, and alternatives for AI assistants, writing tools, image generators, video creators, and more.',
-  keywords = 'AI tools, artificial intelligence, AI software, AI review, ChatGPT, Claude, Midjourney, best AI tools 2026'
+  keywords = 'AI tools, artificial intelligence, AI software, AI review, ChatGPT, Claude, Midjourney, best AI tools 2026',
+  canonicalUrl = 'https://amotor-am.github.io/ai-tools-directory/'
 }: LayoutProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -29,6 +31,7 @@ export default function Layout({
         <meta name="keywords" content={keywords} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href={canonicalUrl} />
         
         {/* Open Graph */}
         <meta property="og:title" content={title} />
@@ -137,16 +140,16 @@ export default function Layout({
 
               {/* Desktop Navigation */}
               <div className="hidden md:flex items-center space-x-8">
-                <Link href="/tools/" className="text-gray-700 hover:text-blue-600 transition font-medium">
+                <Link href="/tools" className="text-gray-700 hover:text-blue-600 transition font-medium">
                   All Tools
                 </Link>
-                <Link href="/categories/" className="text-gray-700 hover:text-blue-600 transition font-medium">
+                <Link href="/categories" className="text-gray-700 hover:text-blue-600 transition font-medium">
                   Categories
                 </Link>
-                <Link href="/compare/" className="text-gray-700 hover:text-blue-600 transition font-medium">
+                <Link href="/compare" className="text-gray-700 hover:text-blue-600 transition font-medium">
                   Compare
                 </Link>
-                <Link href="/blog/" className="text-gray-700 hover:text-blue-600 transition font-medium">
+                <Link href="/blog" className="text-gray-700 hover:text-blue-600 transition font-medium">
                   Blog
                 </Link>
               </div>
@@ -176,40 +179,40 @@ export default function Layout({
           </nav>
 
           {/* Mobile menu */}
-          {mobileMenuOpen && (
-            <div className="md:hidden border-t border-gray-200 bg-white">
-              <div className="px-2 pt-2 pb-3 space-y-1">
-                <Link
-                  href="/tools/"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  All Tools
-                </Link>
-                <Link
-                  href="/categories/"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Categories
-                </Link>
-                <Link
-                  href="/compare/"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Compare
-                </Link>
-                <Link
-                  href="/blog/"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Blog
-                </Link>
-              </div>
+          <div className={`md:hidden border-t border-gray-200 bg-white transition-all duration-300 ease-in-out ${
+            mobileMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
+          }`}>
+            <div className="px-2 pt-2 pb-3 space-y-1">
+              <Link
+                href="/tools"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                All Tools
+              </Link>
+              <Link
+                href="/categories"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Categories
+              </Link>
+              <Link
+                href="/compare"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Compare
+              </Link>
+              <Link
+                href="/blog"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Blog
+              </Link>
             </div>
-          )}
+          </div>
         </header>
 
         {/* Main Content */}

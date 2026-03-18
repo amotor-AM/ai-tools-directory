@@ -1,0 +1,3629 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "description": "Advanced AI chatbot by OpenAI for conversations, research, content creation, and problem-solving",
+    "shortDescription": "Leading conversational AI for research, writing, and automation",
+    "category": "AI Chatbots",
+    "categories": [
+      "AI Chatbots",
+      "Writing",
+      "Code",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Plus",
+        "price": "$20/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$200/mo"
+      }
+    ],
+    "officialUrl": "https://chat.openai.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "chatbot",
+      "writing",
+      "code",
+      "GPT-4"
+    ]
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "slug": "claude",
+    "description": "Anthropic's AI assistant focused on being helpful, harmless, and honest with advanced reasoning capabilities",
+    "shortDescription": "AI assistant with extended context and advanced reasoning",
+    "category": "AI Chatbots",
+    "categories": [
+      "AI Chatbots",
+      "Writing",
+      "Code",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$20/mo"
+      }
+    ],
+    "officialUrl": "https://claude.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "chatbot",
+      "long-context",
+      "code",
+      "writing"
+    ]
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "description": "AI art generator creating stunning images from text descriptions via Discord",
+    "shortDescription": "Premier AI image generator for artistic creations",
+    "category": "Image Generation",
+    "categories": [
+      "Image Generation",
+      "Art",
+      "Design"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Basic",
+        "price": "$10/mo"
+      },
+      {
+        "name": "Standard",
+        "price": "$30/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$60/mo"
+      }
+    ],
+    "officialUrl": "https://midjourney.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": true,
+    "tags": [
+      "image",
+      "art",
+      "discord",
+      "creative"
+    ]
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "description": "Open-source AI image generator that can be run locally or via cloud platforms",
+    "shortDescription": "Open-source AI image generation with full control",
+    "category": "Image Generation",
+    "categories": [
+      "Image Generation",
+      "Open Source",
+      "Art"
+    ],
+    "pricing": "Free",
+    "pricingTiers": [
+      {
+        "name": "Free (Open Source)",
+        "price": "$0"
+      }
+    ],
+    "officialUrl": "https://stability.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "image",
+      "open-source",
+      "local",
+      "customizable"
+    ]
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "slug": "jasper",
+    "description": "AI writing assistant for marketing copy, blog posts, and content creation at scale",
+    "shortDescription": "AI content platform for marketers and teams",
+    "category": "Writing",
+    "categories": [
+      "Writing",
+      "Marketing",
+      "Content Creation"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Creator",
+        "price": "$49/mo"
+      },
+      {
+        "name": "Teams",
+        "price": "$125/mo"
+      },
+      {
+        "name": "Business",
+        "price": "Custom"
+      }
+    ],
+    "officialUrl": "https://jasper.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "writing",
+      "marketing",
+      "seo",
+      "templates"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "slug": "copy-ai",
+    "description": "AI-powered copywriting tool for marketing content, emails, and social media posts",
+    "shortDescription": "AI copywriter for marketing and sales content",
+    "category": "Writing",
+    "categories": [
+      "Writing",
+      "Marketing",
+      "Sales"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$49/mo"
+      }
+    ],
+    "officialUrl": "https://copy.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": true,
+    "tags": [
+      "copywriting",
+      "marketing",
+      "templates"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "description": "AI writing platform for articles, ads, landing pages, and SEO-optimized content",
+    "shortDescription": "AI writer for SEO content and marketing copy",
+    "category": "Writing",
+    "categories": [
+      "Writing",
+      "SEO",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free Trial",
+        "price": "$0"
+      },
+      {
+        "name": "Unlimited",
+        "price": "$20/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$19/mo per user"
+      }
+    ],
+    "officialUrl": "https://writesonic.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.2,
+    "featured": true,
+    "tags": [
+      "writing",
+      "seo",
+      "articles",
+      "ads"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "runway-ml",
+    "name": "Runway",
+    "slug": "runway-ml",
+    "description": "AI-powered video editing and generation platform for creators",
+    "shortDescription": "AI video generation and editing studio",
+    "category": "Video",
+    "categories": [
+      "Video",
+      "Image Generation",
+      "Creative"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Standard",
+        "price": "$15/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$35/mo"
+      }
+    ],
+    "officialUrl": "https://runwayml.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "video",
+      "editing",
+      "generation",
+      "creative"
+    ]
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "description": "AI video generator creating videos with AI avatars from text scripts",
+    "shortDescription": "Create AI avatar videos from text",
+    "category": "Video",
+    "categories": [
+      "Video",
+      "Avatars",
+      "Presentations"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Starter",
+        "price": "$29/mo"
+      },
+      {
+        "name": "Creator",
+        "price": "$89/mo"
+      }
+    ],
+    "officialUrl": "https://synthesia.io",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "video",
+      "avatar",
+      "presentation",
+      "training"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "description": "AI voice generator creating realistic text-to-speech and voice cloning",
+    "shortDescription": "Realistic AI voice generation and cloning",
+    "category": "Voice & Audio",
+    "categories": [
+      "Voice",
+      "Audio",
+      "Text-to-Speech"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Starter",
+        "price": "$5/mo"
+      },
+      {
+        "name": "Creator",
+        "price": "$22/mo"
+      }
+    ],
+    "officialUrl": "https://elevenlabs.io",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "voice",
+      "tts",
+      "cloning",
+      "audio"
+    ]
+  },
+  {
+    "id": "murf-ai",
+    "name": "Murf AI",
+    "slug": "murf-ai",
+    "description": "AI voiceover platform with 120+ voices in 20+ languages",
+    "shortDescription": "Professional AI voiceovers in 120+ voices",
+    "category": "Voice & Audio",
+    "categories": [
+      "Voice",
+      "Audio",
+      "Text-to-Speech"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Basic",
+        "price": "$23/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$26/mo"
+      }
+    ],
+    "officialUrl": "https://murf.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "voice",
+      "voiceover",
+      "multilingual"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "description": "AI pair programmer suggesting code and entire functions in real-time",
+    "shortDescription": "AI coding assistant integrated in your IDE",
+    "category": "Code & Development",
+    "categories": [
+      "Code",
+      "Development",
+      "Productivity"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Individual",
+        "price": "$10/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$19/user/mo"
+      }
+    ],
+    "officialUrl": "https://github.com/features/copilot",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "coding",
+      "ide",
+      "autocomplete",
+      "github"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "slug": "cursor",
+    "description": "AI-first code editor built for pair programming with AI",
+    "shortDescription": "AI-powered IDE for collaborative coding",
+    "category": "Code & Development",
+    "categories": [
+      "Code",
+      "IDE",
+      "Development"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$20/mo"
+      }
+    ],
+    "officialUrl": "https://cursor.sh",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": true,
+    "tags": [
+      "ide",
+      "coding",
+      "ai-pair-programming"
+    ]
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "description": "AI writing assistant for grammar, spelling, style, and tone suggestions",
+    "shortDescription": "AI-powered writing assistant and grammar checker",
+    "category": "Writing",
+    "categories": [
+      "Writing",
+      "Editing",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Premium",
+        "price": "$12/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$15/user/mo"
+      }
+    ],
+    "officialUrl": "https://grammarly.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "grammar",
+      "writing",
+      "editing",
+      "tone"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "description": "AI assistant built into Notion for writing, brainstorming, and organizing",
+    "shortDescription": "AI features integrated into Notion workspace",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Writing",
+      "Organization"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Add-on",
+        "price": "$10/user/mo"
+      }
+    ],
+    "officialUrl": "https://notion.so/product/ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "productivity",
+      "workspace",
+      "writing"
+    ]
+  },
+  {
+    "id": "frase",
+    "name": "Frase",
+    "slug": "frase",
+    "description": "AI SEO content optimization and research tool for better rankings",
+    "shortDescription": "AI-powered SEO content optimization",
+    "category": "SEO",
+    "categories": [
+      "SEO",
+      "Writing",
+      "Marketing"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Solo",
+        "price": "$15/mo"
+      },
+      {
+        "name": "Basic",
+        "price": "$45/mo"
+      },
+      {
+        "name": "Team",
+        "price": "$115/mo"
+      }
+    ],
+    "officialUrl": "https://frase.io",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": true,
+    "tags": [
+      "seo",
+      "content",
+      "research",
+      "optimization"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "surfer-seo",
+    "name": "Surfer SEO",
+    "slug": "surfer-seo",
+    "description": "AI-powered SEO tool for content optimization and competitive analysis",
+    "shortDescription": "Data-driven SEO content optimizer",
+    "category": "SEO",
+    "categories": [
+      "SEO",
+      "Marketing",
+      "Content"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Essential",
+        "price": "$89/mo"
+      },
+      {
+        "name": "Advanced",
+        "price": "$179/mo"
+      },
+      {
+        "name": "Max",
+        "price": "$299/mo"
+      }
+    ],
+    "officialUrl": "https://surferseo.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "seo",
+      "content-optimization",
+      "serp"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "semrush",
+    "name": "Semrush",
+    "slug": "semrush",
+    "description": "Comprehensive SEO and digital marketing platform with AI-powered insights",
+    "shortDescription": "All-in-one SEO and marketing platform",
+    "category": "SEO",
+    "categories": [
+      "SEO",
+      "Marketing",
+      "Analytics"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Pro",
+        "price": "$139.95/mo"
+      },
+      {
+        "name": "Guru",
+        "price": "$249.95/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$499.95/mo"
+      }
+    ],
+    "officialUrl": "https://semrush.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "seo",
+      "marketing",
+      "analytics",
+      "research"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "clickup",
+    "name": "ClickUp",
+    "slug": "clickup",
+    "description": "Project management platform with AI-powered task management and automation",
+    "shortDescription": "AI-enhanced project management platform",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Project Management",
+      "Collaboration"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Unlimited",
+        "price": "$7/user/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$12/user/mo"
+      }
+    ],
+    "officialUrl": "https://clickup.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "productivity",
+      "project-management",
+      "collaboration"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "slug": "descript",
+    "description": "AI-powered video and podcast editing through text transcription",
+    "shortDescription": "Edit video and audio by editing text",
+    "category": "Video",
+    "categories": [
+      "Video",
+      "Audio",
+      "Editing",
+      "Podcasting"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Creator",
+        "price": "$24/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$40/mo"
+      }
+    ],
+    "officialUrl": "https://descript.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "video",
+      "audio",
+      "transcription",
+      "podcast"
+    ]
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "slug": "canva",
+    "description": "Design platform with AI-powered tools for creating graphics, presentations, and videos",
+    "shortDescription": "AI-enhanced graphic design platform",
+    "category": "Design",
+    "categories": [
+      "Design",
+      "Graphics",
+      "Presentations"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$14.99/mo"
+      },
+      {
+        "name": "Teams",
+        "price": "$29.99/team/mo"
+      }
+    ],
+    "officialUrl": "https://canva.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": true,
+    "tags": [
+      "design",
+      "graphics",
+      "templates",
+      "easy"
+    ]
+  },
+  {
+    "id": "gemini",
+    "name": "Google Gemini",
+    "slug": "gemini",
+    "description": "Google's multimodal AI assistant with deep integration into Google services",
+    "shortDescription": "Google's AI chatbot with image and web integration",
+    "category": "AI Chatbots",
+    "categories": [
+      "AI Chatbots",
+      "Image Generation",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Advanced",
+        "price": "$19.99/mo"
+      }
+    ],
+    "officialUrl": "https://gemini.google.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "chatbot",
+      "google",
+      "multimodal",
+      "image-generation"
+    ]
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "slug": "perplexity",
+    "description": "AI-powered search engine providing direct answers with citations",
+    "shortDescription": "AI search engine with cited answers",
+    "category": "Research",
+    "categories": [
+      "Research",
+      "Search",
+      "AI Chatbots"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$20/mo"
+      }
+    ],
+    "officialUrl": "https://perplexity.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "search",
+      "research",
+      "citations",
+      "web"
+    ]
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "description": "AI meeting assistant for transcription, notes, and summaries",
+    "shortDescription": "AI transcription for meetings and notes",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Transcription",
+      "Meetings"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Basic",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$16.99/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$30/user/mo"
+      }
+    ],
+    "officialUrl": "https://otter.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "transcription",
+      "meetings",
+      "notes",
+      "voice"
+    ]
+  },
+  {
+    "id": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "slug": "fireflies-ai",
+    "description": "AI notetaker for meetings with transcription and analysis",
+    "shortDescription": "AI meeting recorder and transcriber",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Meetings",
+      "Transcription"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$10/user/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$19/user/mo"
+      }
+    ],
+    "officialUrl": "https://fireflies.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "meetings",
+      "transcription",
+      "ai-notetaker"
+    ]
+  },
+  {
+    "id": "lumen5",
+    "name": "Lumen5",
+    "slug": "lumen5",
+    "description": "AI video creation platform turning blog posts into engaging videos",
+    "shortDescription": "Transform text content into videos",
+    "category": "Video",
+    "categories": [
+      "Video",
+      "Content Creation",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Basic",
+        "price": "$29/mo"
+      },
+      {
+        "name": "Starter",
+        "price": "$79/mo"
+      },
+      {
+        "name": "Professional",
+        "price": "$199/mo"
+      }
+    ],
+    "officialUrl": "https://lumen5.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.2,
+    "featured": false,
+    "tags": [
+      "video",
+      "content-repurposing",
+      "marketing"
+    ]
+  },
+  {
+    "id": "pictory",
+    "name": "Pictory",
+    "slug": "pictory",
+    "description": "AI video generator creating short videos from long-form content",
+    "shortDescription": "AI-powered short video creation",
+    "category": "Video",
+    "categories": [
+      "Video",
+      "Content Creation",
+      "Social Media"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Standard",
+        "price": "$23/mo"
+      },
+      {
+        "name": "Premium",
+        "price": "$47/mo"
+      }
+    ],
+    "officialUrl": "https://pictory.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "video",
+      "short-form",
+      "social-media"
+    ]
+  },
+  {
+    "id": "invideo-ai",
+    "name": "InVideo AI",
+    "slug": "invideo-ai",
+    "description": "AI video creation tool with templates and text-to-video features",
+    "shortDescription": "Create videos from text prompts",
+    "category": "Video",
+    "categories": [
+      "Video",
+      "Content Creation"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Plus",
+        "price": "$25/mo"
+      },
+      {
+        "name": "Max",
+        "price": "$60/mo"
+      }
+    ],
+    "officialUrl": "https://invideo.io",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": true,
+    "tags": [
+      "video",
+      "templates",
+      "text-to-video"
+    ]
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo.Ai",
+    "slug": "leonardo-ai",
+    "description": "AI image generator optimized for game assets and creative projects",
+    "shortDescription": "AI image generation for gaming and design",
+    "category": "Image Generation",
+    "categories": [
+      "Image Generation",
+      "Game Development",
+      "Design"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Apprentice",
+        "price": "$12/mo"
+      },
+      {
+        "name": "Artisan",
+        "price": "$30/mo"
+      }
+    ],
+    "officialUrl": "https://leonardo.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "image",
+      "gaming",
+      "design",
+      "assets"
+    ]
+  },
+  {
+    "id": "dall-e",
+    "name": "DALL-E 3",
+    "slug": "dall-e",
+    "description": "OpenAI's image generation AI integrated with ChatGPT",
+    "shortDescription": "Advanced AI image generator by OpenAI",
+    "category": "Image Generation",
+    "categories": [
+      "Image Generation",
+      "Art"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "ChatGPT Plus",
+        "price": "$20/mo"
+      }
+    ],
+    "officialUrl": "https://openai.com/dall-e-3",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "image",
+      "openai",
+      "chatgpt-integration"
+    ]
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "slug": "adobe-firefly",
+    "description": "Adobe's generative AI for creative workflows in Photoshop and Illustrator",
+    "shortDescription": "Adobe's generative AI for creative tools",
+    "category": "Image Generation",
+    "categories": [
+      "Image Generation",
+      "Design",
+      "Photo Editing"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Premium",
+        "price": "$4.99/mo"
+      }
+    ],
+    "officialUrl": "https://firefly.adobe.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "adobe",
+      "generative-ai",
+      "photoshop"
+    ]
+  },
+  {
+    "id": "remove-bg",
+    "name": "Remove.bg",
+    "slug": "remove-bg",
+    "description": "AI-powered background removal tool for images",
+    "shortDescription": "Instant AI background removal",
+    "category": "Image Editing",
+    "categories": [
+      "Image Editing",
+      "Design",
+      "Photography"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Subscription",
+        "price": "$9/mo"
+      }
+    ],
+    "officialUrl": "https://remove.bg",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": false,
+    "tags": [
+      "background-removal",
+      "image-editing",
+      "photography"
+    ]
+  },
+  {
+    "id": "cleanup-pictures",
+    "name": "Cleanup.pictures",
+    "slug": "cleanup-pictures",
+    "description": "AI tool to remove objects, people, text from images",
+    "shortDescription": "Remove unwanted objects from photos with AI",
+    "category": "Image Editing",
+    "categories": [
+      "Image Editing",
+      "Photo Editing"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$5/mo"
+      }
+    ],
+    "officialUrl": "https://cleanup.pictures",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": false,
+    "tags": [
+      "photo-editing",
+      "object-removal",
+      "cleanup"
+    ]
+  },
+  {
+    "id": "topaz-labs",
+    "name": "Topaz Labs",
+    "slug": "topaz-labs",
+    "description": "AI-powered photo and video enhancement software",
+    "shortDescription": "Professional AI photo and video enhancement",
+    "category": "Image Editing",
+    "categories": [
+      "Image Editing",
+      "Video",
+      "Photography"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Photo AI",
+        "price": "$199 one-time"
+      },
+      {
+        "name": "Video AI",
+        "price": "$299 one-time"
+      }
+    ],
+    "officialUrl": "https://topazlabs.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "photo-enhancement",
+      "video-enhancement",
+      "upscaling"
+    ]
+  },
+  {
+    "id": "character-ai",
+    "name": "Character.AI",
+    "slug": "character-ai",
+    "description": "Platform for creating and chatting with AI characters",
+    "shortDescription": "Create and chat with AI personalities",
+    "category": "AI Chatbots",
+    "categories": [
+      "AI Chatbots",
+      "Entertainment",
+      "Creative"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "c.ai+",
+        "price": "$9.99/mo"
+      }
+    ],
+    "officialUrl": "https://character.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.2,
+    "featured": false,
+    "tags": [
+      "chatbot",
+      "characters",
+      "roleplay",
+      "entertainment"
+    ]
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "slug": "huggingface",
+    "description": "Platform for machine learning models, datasets, and AI applications",
+    "shortDescription": "ML model hub and AI development platform",
+    "category": "Developer Tools",
+    "categories": [
+      "Developer Tools",
+      "Machine Learning",
+      "Open Source"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$9/mo"
+      },
+      {
+        "name": "Enterprise",
+        "price": "$20/user/mo"
+      }
+    ],
+    "officialUrl": "https://huggingface.co",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": true,
+    "tags": [
+      "ml-models",
+      "open-source",
+      "developer",
+      "transformers"
+    ]
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "slug": "replit",
+    "description": "Online IDE with AI-powered coding assistance",
+    "shortDescription": "Collaborative IDE with AI code generation",
+    "category": "Code & Development",
+    "categories": [
+      "Code",
+      "IDE",
+      "Collaboration"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Hacker",
+        "price": "$7/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$20/mo"
+      }
+    ],
+    "officialUrl": "https://replit.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "ide",
+      "coding",
+      "collaboration",
+      "ai-assistance"
+    ]
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "description": "AI code completion tool supporting multiple IDEs",
+    "shortDescription": "AI autocomplete for coding across IDEs",
+    "category": "Code & Development",
+    "categories": [
+      "Code",
+      "IDE",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$12/mo"
+      }
+    ],
+    "officialUrl": "https://tabnine.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "code-completion",
+      "ide",
+      "autocomplete"
+    ]
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "slug": "codeium",
+    "description": "Free AI code acceleration toolkit for developers",
+    "shortDescription": "Free AI coding assistant and autocomplete",
+    "category": "Code & Development",
+    "categories": [
+      "Code",
+      "IDE",
+      "Free Tools"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Teams",
+        "price": "$12/user/mo"
+      }
+    ],
+    "officialUrl": "https://codeium.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "coding",
+      "free",
+      "autocomplete",
+      "multi-language"
+    ]
+  },
+  {
+    "id": "v0-dev",
+    "name": "v0 by Vercel",
+    "slug": "v0-dev",
+    "description": "AI-powered UI generation from text prompts",
+    "shortDescription": "Generate React UI components with AI",
+    "category": "Code & Development",
+    "categories": [
+      "Code",
+      "UI Design",
+      "React"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Premium",
+        "price": "$20/mo"
+      }
+    ],
+    "officialUrl": "https://v0.dev",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "ui-generation",
+      "react",
+      "vercel",
+      "components"
+    ]
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "slug": "windsurf",
+    "description": "AI-first IDE with agentic coding capabilities",
+    "shortDescription": "Next-gen AI IDE for autonomous coding",
+    "category": "Code & Development",
+    "categories": [
+      "Code",
+      "IDE",
+      "AI Agents"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$15/mo"
+      }
+    ],
+    "officialUrl": "https://codeium.com/windsurf",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": true,
+    "tags": [
+      "ide",
+      "agentic-ai",
+      "autonomous-coding"
+    ]
+  },
+  {
+    "id": "gamma-app",
+    "name": "Gamma",
+    "slug": "gamma-app",
+    "description": "AI-powered presentation and document creation",
+    "shortDescription": "Create presentations with AI in minutes",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Presentations",
+      "Documents"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Plus",
+        "price": "$10/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$20/mo"
+      }
+    ],
+    "officialUrl": "https://gamma.app",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "presentations",
+      "documents",
+      "slides",
+      "ai-generation"
+    ]
+  },
+  {
+    "id": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "slug": "beautiful-ai",
+    "description": "AI presentation software with smart slide templates",
+    "shortDescription": "AI-powered presentation design",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Presentations",
+      "Design"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Pro",
+        "price": "$12/mo"
+      },
+      {
+        "name": "Team",
+        "price": "$50/user/mo"
+      }
+    ],
+    "officialUrl": "https://beautiful.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "presentations",
+      "design",
+      "templates"
+    ]
+  },
+  {
+    "id": "tome-app",
+    "name": "Tome",
+    "slug": "tome-app",
+    "description": "AI-powered storytelling and presentation platform",
+    "shortDescription": "AI storytelling for presentations",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Presentations",
+      "Storytelling"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$20/mo"
+      }
+    ],
+    "officialUrl": "https://tome.app",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "presentations",
+      "storytelling",
+      "ai-generated"
+    ]
+  },
+  {
+    "id": "chatpdf",
+    "name": "ChatPDF",
+    "slug": "chatpdf",
+    "description": "AI tool to chat with and analyze PDF documents",
+    "shortDescription": "Chat with your PDF documents using AI",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Research",
+      "Documents"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Plus",
+        "price": "$5/mo"
+      }
+    ],
+    "officialUrl": "https://chatpdf.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.2,
+    "featured": false,
+    "tags": [
+      "pdf",
+      "document-analysis",
+      "research"
+    ]
+  },
+  {
+    "id": "scholarai",
+    "name": "Scholar AI",
+    "slug": "scholarai",
+    "description": "AI research assistant for academic papers and citations",
+    "shortDescription": "AI-powered academic research assistant",
+    "category": "Research",
+    "categories": [
+      "Research",
+      "Academic",
+      "Education"
+    ],
+    "pricing": "Free",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      }
+    ],
+    "officialUrl": "https://scholarai.io",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "academic",
+      "research",
+      "citations",
+      "papers"
+    ]
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "slug": "elicit",
+    "description": "AI research assistant for finding and summarizing papers",
+    "shortDescription": "AI tool for literature reviews and research",
+    "category": "Research",
+    "categories": [
+      "Research",
+      "Academic",
+      "Literature Review"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Basic",
+        "price": "$0"
+      },
+      {
+        "name": "Plus",
+        "price": "$12/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$42/mo"
+      }
+    ],
+    "officialUrl": "https://elicit.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "research",
+      "literature-review",
+      "academic",
+      "papers"
+    ]
+  },
+  {
+    "id": "consensus",
+    "name": "Consensus",
+    "slug": "consensus",
+    "description": "AI search engine for scientific research papers",
+    "shortDescription": "Search 200M+ research papers with AI",
+    "category": "Research",
+    "categories": [
+      "Research",
+      "Academic",
+      "Search"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Premium",
+        "price": "$8.99/mo"
+      }
+    ],
+    "officialUrl": "https://consensus.app",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "research",
+      "papers",
+      "academic",
+      "search"
+    ]
+  },
+  {
+    "id": "wordtune",
+    "name": "Wordtune",
+    "slug": "wordtune",
+    "description": "AI writing companion for rewriting and improving text",
+    "shortDescription": "AI rewriting tool for better clarity",
+    "category": "Writing",
+    "categories": [
+      "Writing",
+      "Editing",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Plus",
+        "price": "$9.99/mo"
+      },
+      {
+        "name": "Unlimited",
+        "price": "$14.99/mo"
+      }
+    ],
+    "officialUrl": "https://wordtune.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "writing",
+      "rewriting",
+      "clarity",
+      "editing"
+    ]
+  },
+  {
+    "id": "quillbot",
+    "name": "QuillBot",
+    "slug": "quillbot",
+    "description": "AI paraphrasing and grammar checking tool",
+    "shortDescription": "AI paraphraser and writing enhancer",
+    "category": "Writing",
+    "categories": [
+      "Writing",
+      "Paraphrasing",
+      "Editing"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Premium",
+        "price": "$8.33/mo"
+      }
+    ],
+    "officialUrl": "https://quillbot.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "paraphrasing",
+      "grammar",
+      "writing",
+      "editing"
+    ]
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "slug": "rytr",
+    "description": "AI writing assistant for creating content quickly",
+    "shortDescription": "Fast AI content creation tool",
+    "category": "Writing",
+    "categories": [
+      "Writing",
+      "Content Creation",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Saver",
+        "price": "$9/mo"
+      },
+      {
+        "name": "Unlimited",
+        "price": "$29/mo"
+      }
+    ],
+    "officialUrl": "https://rytr.me",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.2,
+    "featured": false,
+    "tags": [
+      "writing",
+      "content-creation",
+      "fast",
+      "affordable"
+    ]
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "slug": "zapier",
+    "description": "Automation platform connecting apps and services with AI-powered workflow builder",
+    "shortDescription": "Connect and automate 6,000+ apps",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Automation",
+      "Integration"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Starter",
+        "price": "$29.99/mo"
+      },
+      {
+        "name": "Professional",
+        "price": "$73.50/mo"
+      }
+    ],
+    "officialUrl": "https://zapier.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "automation",
+      "integration",
+      "workflows",
+      "no-code"
+    ]
+  },
+  {
+    "id": "make",
+    "name": "Make",
+    "slug": "make",
+    "description": "Visual automation platform (formerly Integromat) with advanced scenario builder",
+    "shortDescription": "Visual automation for complex workflows",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Automation",
+      "Integration"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Core",
+        "price": "$10.59/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$18.82/mo"
+      }
+    ],
+    "officialUrl": "https://make.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "automation",
+      "integration",
+      "visual",
+      "advanced"
+    ]
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable",
+    "slug": "airtable",
+    "description": "Database and spreadsheet hybrid with AI-powered data organization",
+    "shortDescription": "Flexible database with spreadsheet interface",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Database",
+      "Collaboration"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Plus",
+        "price": "$10/user/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$20/user/mo"
+      }
+    ],
+    "officialUrl": "https://airtable.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": false,
+    "tags": [
+      "database",
+      "spreadsheet",
+      "organization",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "monday",
+    "name": "Monday.com",
+    "slug": "monday",
+    "description": "Work operating system with AI automation and project management",
+    "shortDescription": "Visual work management platform",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Project Management",
+      "Collaboration"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Basic",
+        "price": "$9/user/mo"
+      },
+      {
+        "name": "Standard",
+        "price": "$12/user/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$19/user/mo"
+      }
+    ],
+    "officialUrl": "https://monday.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "project-management",
+      "collaboration",
+      "visual",
+      "workflows"
+    ]
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "slug": "asana",
+    "description": "Project management and task tracking with AI-powered insights",
+    "shortDescription": "Team task and project manager",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Project Management",
+      "Tasks"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Basic",
+        "price": "$0"
+      },
+      {
+        "name": "Premium",
+        "price": "$10.99/user/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$24.99/user/mo"
+      }
+    ],
+    "officialUrl": "https://asana.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "project-management",
+      "tasks",
+      "collaboration",
+      "teams"
+    ]
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "slug": "trello",
+    "description": "Kanban-style project management with AI automation (by Atlassian)",
+    "shortDescription": "Visual kanban boards for projects",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Project Management",
+      "Kanban"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Standard",
+        "price": "$5/user/mo"
+      },
+      {
+        "name": "Premium",
+        "price": "$10/user/mo"
+      }
+    ],
+    "officialUrl": "https://trello.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "kanban",
+      "boards",
+      "project-management",
+      "visual"
+    ]
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "slug": "slack",
+    "description": "Team communication platform with AI search and workflow automation",
+    "shortDescription": "Team messaging and collaboration hub",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Communication",
+      "Collaboration"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$7.25/user/mo"
+      },
+      {
+        "name": "Business+",
+        "price": "$12.50/user/mo"
+      }
+    ],
+    "officialUrl": "https://slack.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "messaging",
+      "communication",
+      "teams",
+      "integration"
+    ]
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "slug": "discord",
+    "description": "Community communication platform with voice, video, and AI moderation",
+    "shortDescription": "Voice and chat for communities",
+    "category": "Communication",
+    "categories": [
+      "Communication",
+      "Voice",
+      "Communities"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Nitro",
+        "price": "$9.99/mo"
+      }
+    ],
+    "officialUrl": "https://discord.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": false,
+    "tags": [
+      "voice",
+      "chat",
+      "community",
+      "gaming"
+    ]
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom",
+    "slug": "zoom",
+    "description": "Video conferencing with AI transcription and meeting summaries",
+    "shortDescription": "Video meetings with AI features",
+    "category": "Communication",
+    "categories": [
+      "Communication",
+      "Video",
+      "Meetings"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Basic",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$15.99/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$19.99/mo"
+      }
+    ],
+    "officialUrl": "https://zoom.us",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "video",
+      "meetings",
+      "conferencing",
+      "ai-transcription"
+    ]
+  },
+  {
+    "id": "loom",
+    "name": "Loom",
+    "slug": "loom",
+    "description": "Screen recording with AI-powered transcription and editing",
+    "shortDescription": "Quick video messages and screen recording",
+    "category": "Video",
+    "categories": [
+      "Video",
+      "Screen Recording",
+      "Communication"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Starter",
+        "price": "$0"
+      },
+      {
+        "name": "Business",
+        "price": "$12.50/user/mo"
+      }
+    ],
+    "officialUrl": "https://loom.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": true,
+    "tags": [
+      "screen-recording",
+      "video-messages",
+      "async",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "calendly",
+    "name": "Calendly",
+    "slug": "calendly",
+    "description": "Automated scheduling with AI-powered availability optimization",
+    "shortDescription": "Automated meeting scheduling",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Scheduling",
+      "Calendar"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Standard",
+        "price": "$10/user/mo"
+      },
+      {
+        "name": "Teams",
+        "price": "$16/user/mo"
+      }
+    ],
+    "officialUrl": "https://calendly.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": false,
+    "tags": [
+      "scheduling",
+      "calendar",
+      "meetings",
+      "automation"
+    ]
+  },
+  {
+    "id": "superhuman",
+    "name": "Superhuman",
+    "slug": "superhuman",
+    "description": "AI-powered email client for speed and productivity",
+    "shortDescription": "Blazingly fast AI email client",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Email",
+      "Communication"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Individual",
+        "price": "$30/mo"
+      }
+    ],
+    "officialUrl": "https://superhuman.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": true,
+    "tags": [
+      "email",
+      "productivity",
+      "fast",
+      "keyboard-shortcuts"
+    ]
+  },
+  {
+    "id": "spark-mail",
+    "name": "Spark Mail",
+    "slug": "spark-mail",
+    "description": "Smart email app with AI prioritization and team collaboration",
+    "shortDescription": "Smart email for teams and individuals",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Email",
+      "Communication"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Premium",
+        "price": "$6.39/mo"
+      }
+    ],
+    "officialUrl": "https://sparkmailapp.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": false,
+    "tags": [
+      "email",
+      "smart-inbox",
+      "prioritization",
+      "teams"
+    ]
+  },
+  {
+    "id": "mailchimp",
+    "name": "Mailchimp",
+    "slug": "mailchimp",
+    "description": "Email marketing platform with AI-powered campaign optimization",
+    "shortDescription": "Email marketing and automation",
+    "category": "Marketing",
+    "categories": [
+      "Marketing",
+      "Email",
+      "Automation"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Essentials",
+        "price": "$13/mo"
+      },
+      {
+        "name": "Standard",
+        "price": "$20/mo"
+      }
+    ],
+    "officialUrl": "https://mailchimp.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "email-marketing",
+      "automation",
+      "campaigns",
+      "newsletters"
+    ]
+  },
+  {
+    "id": "hubspot",
+    "name": "HubSpot",
+    "slug": "hubspot",
+    "description": "CRM and marketing platform with AI-powered sales automation",
+    "shortDescription": "All-in-one CRM and marketing platform",
+    "category": "Marketing",
+    "categories": [
+      "Marketing",
+      "CRM",
+      "Sales",
+      "Automation"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free Tools",
+        "price": "$0"
+      },
+      {
+        "name": "Starter",
+        "price": "$20/mo"
+      },
+      {
+        "name": "Professional",
+        "price": "$890/mo"
+      }
+    ],
+    "officialUrl": "https://hubspot.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "crm",
+      "marketing",
+      "sales",
+      "automation"
+    ],
+    "affiliate": true
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "description": "Enterprise CRM with Einstein AI for sales and marketing",
+    "shortDescription": "Enterprise CRM with AI insights",
+    "category": "CRM",
+    "categories": [
+      "CRM",
+      "Sales",
+      "Enterprise"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Starter",
+        "price": "$25/user/mo"
+      },
+      {
+        "name": "Professional",
+        "price": "$80/user/mo"
+      },
+      {
+        "name": "Enterprise",
+        "price": "$165/user/mo"
+      }
+    ],
+    "officialUrl": "https://salesforce.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "crm",
+      "enterprise",
+      "sales",
+      "ai-insights"
+    ]
+  },
+  {
+    "id": "intercom",
+    "name": "Intercom",
+    "slug": "intercom",
+    "description": "Customer messaging platform with AI chatbots and support automation",
+    "shortDescription": "AI-powered customer messaging",
+    "category": "Customer Support",
+    "categories": [
+      "Customer Support",
+      "Chat",
+      "Automation"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Starter",
+        "price": "$74/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$395/mo"
+      }
+    ],
+    "officialUrl": "https://intercom.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "customer-support",
+      "chat",
+      "chatbot",
+      "automation"
+    ]
+  },
+  {
+    "id": "zendesk",
+    "name": "Zendesk",
+    "slug": "zendesk",
+    "description": "Customer service platform with AI-powered ticket routing and responses",
+    "shortDescription": "AI-enhanced customer service platform",
+    "category": "Customer Support",
+    "categories": [
+      "Customer Support",
+      "Helpdesk",
+      "Automation"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Suite Team",
+        "price": "$55/agent/mo"
+      },
+      {
+        "name": "Suite Growth",
+        "price": "$89/agent/mo"
+      },
+      {
+        "name": "Suite Professional",
+        "price": "$115/agent/mo"
+      }
+    ],
+    "officialUrl": "https://zendesk.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "customer-support",
+      "helpdesk",
+      "tickets",
+      "ai-routing"
+    ]
+  },
+  {
+    "id": "freshdesk",
+    "name": "Freshdesk",
+    "slug": "freshdesk",
+    "description": "Customer support software with AI-powered automation",
+    "shortDescription": "Modern helpdesk with AI features",
+    "category": "Customer Support",
+    "categories": [
+      "Customer Support",
+      "Helpdesk",
+      "Ticketing"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Growth",
+        "price": "$15/agent/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$49/agent/mo"
+      }
+    ],
+    "officialUrl": "https://freshdesk.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "helpdesk",
+      "support",
+      "ticketing",
+      "automation"
+    ]
+  },
+  {
+    "id": "tidio",
+    "name": "Tidio",
+    "slug": "tidio",
+    "description": "Live chat and chatbot platform with AI-powered automation",
+    "shortDescription": "Live chat with AI chatbots",
+    "category": "Customer Support",
+    "categories": [
+      "Customer Support",
+      "Chat",
+      "Chatbots"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Starter",
+        "price": "$29/mo"
+      },
+      {
+        "name": "Communicator",
+        "price": "$25/mo"
+      }
+    ],
+    "officialUrl": "https://tidio.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": false,
+    "tags": [
+      "live-chat",
+      "chatbot",
+      "support",
+      "ecommerce"
+    ]
+  },
+  {
+    "id": "drift",
+    "name": "Drift",
+    "slug": "drift",
+    "description": "Conversational marketing platform with AI chatbots for sales",
+    "shortDescription": "Conversational AI for revenue teams",
+    "category": "Marketing",
+    "categories": [
+      "Marketing",
+      "Chat",
+      "Sales",
+      "Chatbots"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Premium",
+        "price": "$2,500/mo"
+      },
+      {
+        "name": "Advanced",
+        "price": "Custom"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom"
+      }
+    ],
+    "officialUrl": "https://drift.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "conversational-marketing",
+      "chatbot",
+      "sales",
+      "b2b"
+    ]
+  },
+  {
+    "id": "chatbase",
+    "name": "Chatbase",
+    "slug": "chatbase",
+    "description": "Custom ChatGPT chatbots trained on your data",
+    "shortDescription": "Build ChatGPT chatbots for your website",
+    "category": "AI Chatbots",
+    "categories": [
+      "AI Chatbots",
+      "Customer Support",
+      "No-Code"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Hobby",
+        "price": "$19/mo"
+      },
+      {
+        "name": "Standard",
+        "price": "$99/mo"
+      }
+    ],
+    "officialUrl": "https://chatbase.co",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "chatbot",
+      "custom-gpt",
+      "chatgpt",
+      "no-code"
+    ]
+  },
+  {
+    "id": "customgpt",
+    "name": "CustomGPT.ai",
+    "slug": "customgpt",
+    "description": "Create custom ChatGPT agents trained on business data",
+    "shortDescription": "Business-focused custom GPT platform",
+    "category": "AI Chatbots",
+    "categories": [
+      "AI Chatbots",
+      "Business",
+      "Enterprise"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Standard",
+        "price": "$89/mo"
+      },
+      {
+        "name": "Premium",
+        "price": "$449/mo"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom"
+      }
+    ],
+    "officialUrl": "https://customgpt.ai",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "custom-gpt",
+      "business",
+      "enterprise",
+      "chatbot"
+    ]
+  },
+  {
+    "id": "botpress",
+    "name": "Botpress",
+    "slug": "botpress",
+    "description": "Open-source chatbot builder with GPT integration",
+    "shortDescription": "Build advanced chatbots with GPT",
+    "category": "AI Chatbots",
+    "categories": [
+      "AI Chatbots",
+      "Open Source",
+      "Developer Tools"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Team",
+        "price": "$50/mo"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom"
+      }
+    ],
+    "officialUrl": "https://botpress.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "chatbot",
+      "open-source",
+      "gpt-integration",
+      "developer"
+    ]
+  },
+  {
+    "id": "landbot",
+    "name": "Landbot",
+    "slug": "landbot",
+    "description": "No-code chatbot builder for websites, WhatsApp, and more",
+    "shortDescription": "Visual no-code chatbot builder",
+    "category": "AI Chatbots",
+    "categories": [
+      "AI Chatbots",
+      "No-Code",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Sandbox",
+        "price": "$0"
+      },
+      {
+        "name": "Starter",
+        "price": "$45/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$100/mo"
+      }
+    ],
+    "officialUrl": "https://landbot.io",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "chatbot",
+      "no-code",
+      "whatsapp",
+      "visual-builder"
+    ]
+  },
+  {
+    "id": "typeform",
+    "name": "Typeform",
+    "slug": "typeform",
+    "description": "Interactive forms and surveys with AI-powered insights",
+    "shortDescription": "Beautiful interactive forms and surveys",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Forms",
+      "Surveys"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Basic",
+        "price": "$0"
+      },
+      {
+        "name": "Plus",
+        "price": "$29/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$59/mo"
+      }
+    ],
+    "officialUrl": "https://typeform.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": false,
+    "tags": [
+      "forms",
+      "surveys",
+      "interactive",
+      "data-collection"
+    ]
+  },
+  {
+    "id": "jotform",
+    "name": "Jotform",
+    "slug": "jotform",
+    "description": "Form builder with AI-powered form generation",
+    "shortDescription": "Powerful online form builder",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Forms",
+      "No-Code"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Bronze",
+        "price": "$34/mo"
+      },
+      {
+        "name": "Silver",
+        "price": "$39/mo"
+      }
+    ],
+    "officialUrl": "https://jotform.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "forms",
+      "builder",
+      "no-code",
+      "ai-generation"
+    ]
+  },
+  {
+    "id": "tally",
+    "name": "Tally",
+    "slug": "tally",
+    "description": "Free form builder with unlimited forms and responses",
+    "shortDescription": "Simplest free form builder",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Forms",
+      "Free Tools"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$29/mo"
+      }
+    ],
+    "officialUrl": "https://tally.so",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": false,
+    "tags": [
+      "forms",
+      "free",
+      "unlimited",
+      "simple"
+    ]
+  },
+  {
+    "id": "wix",
+    "name": "Wix",
+    "slug": "wix",
+    "description": "Website builder with AI design assistant",
+    "shortDescription": "AI website builder with drag-and-drop",
+    "category": "Web Development",
+    "categories": [
+      "Web Development",
+      "No-Code",
+      "Design"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Light",
+        "price": "$17/mo"
+      },
+      {
+        "name": "Core",
+        "price": "$29/mo"
+      }
+    ],
+    "officialUrl": "https://wix.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "website-builder",
+      "ai-design",
+      "no-code",
+      "drag-drop"
+    ]
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow",
+    "slug": "webflow",
+    "description": "Visual website builder for designers with no-code capabilities",
+    "shortDescription": "Professional no-code website builder",
+    "category": "Web Development",
+    "categories": [
+      "Web Development",
+      "No-Code",
+      "Design"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Basic",
+        "price": "$14/mo"
+      },
+      {
+        "name": "CMS",
+        "price": "$23/mo"
+      }
+    ],
+    "officialUrl": "https://webflow.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "website-builder",
+      "no-code",
+      "professional",
+      "cms"
+    ]
+  },
+  {
+    "id": "framer",
+    "name": "Framer",
+    "slug": "framer",
+    "description": "Website builder with AI-powered design and CMS",
+    "shortDescription": "Design and ship websites with AI",
+    "category": "Web Development",
+    "categories": [
+      "Web Development",
+      "Design",
+      "No-Code"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Mini",
+        "price": "$5/site/mo"
+      },
+      {
+        "name": "Basic",
+        "price": "$15/site/mo"
+      }
+    ],
+    "officialUrl": "https://framer.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": true,
+    "tags": [
+      "website-builder",
+      "design",
+      "ai-powered",
+      "cms"
+    ]
+  },
+  {
+    "id": "bubble",
+    "name": "Bubble",
+    "slug": "bubble",
+    "description": "No-code platform for building web applications",
+    "shortDescription": "Build apps without code",
+    "category": "Web Development",
+    "categories": [
+      "Web Development",
+      "No-Code",
+      "App Development"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Starter",
+        "price": "$29/mo"
+      },
+      {
+        "name": "Growth",
+        "price": "$119/mo"
+      }
+    ],
+    "officialUrl": "https://bubble.io",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "no-code",
+      "web-apps",
+      "development",
+      "visual"
+    ]
+  },
+  {
+    "id": "retool",
+    "name": "Retool",
+    "slug": "retool",
+    "description": "Low-code platform for building internal tools quickly",
+    "shortDescription": "Build internal tools faster",
+    "category": "Developer Tools",
+    "categories": [
+      "Developer Tools",
+      "Low-Code",
+      "Internal Tools"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Team",
+        "price": "$10/user/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$50/user/mo"
+      }
+    ],
+    "officialUrl": "https://retool.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "internal-tools",
+      "low-code",
+      "developer",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "flutterflow",
+    "name": "FlutterFlow",
+    "slug": "flutterflow",
+    "description": "Visual app builder for Flutter applications",
+    "shortDescription": "Build Flutter apps visually",
+    "category": "App Development",
+    "categories": [
+      "App Development",
+      "No-Code",
+      "Mobile"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Standard",
+        "price": "$30/mo"
+      },
+      {
+        "name": "Pro",
+        "price": "$70/mo"
+      }
+    ],
+    "officialUrl": "https://flutterflow.io",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": true,
+    "tags": [
+      "flutter",
+      "app-builder",
+      "mobile",
+      "visual"
+    ]
+  },
+  {
+    "id": "adalo",
+    "name": "Adalo",
+    "slug": "adalo",
+    "description": "No-code mobile and web app builder",
+    "shortDescription": "Create apps without code",
+    "category": "App Development",
+    "categories": [
+      "App Development",
+      "No-Code",
+      "Mobile"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Starter",
+        "price": "$45/mo"
+      },
+      {
+        "name": "Professional",
+        "price": "$65/mo"
+      }
+    ],
+    "officialUrl": "https://adalo.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "no-code",
+      "mobile-apps",
+      "web-apps",
+      "builder"
+    ]
+  },
+  {
+    "id": "glide",
+    "name": "Glide",
+    "slug": "glide",
+    "description": "Build apps from spreadsheets with AI assistance",
+    "shortDescription": "Apps from spreadsheets",
+    "category": "App Development",
+    "categories": [
+      "App Development",
+      "No-Code",
+      "Spreadsheets"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Maker",
+        "price": "$25/mo"
+      },
+      {
+        "name": "Team",
+        "price": "$100/mo"
+      }
+    ],
+    "officialUrl": "https://glideapps.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": false,
+    "tags": [
+      "no-code",
+      "spreadsheet-apps",
+      "mobile",
+      "simple"
+    ]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "slug": "figma",
+    "description": "Collaborative design tool with AI-powered features",
+    "shortDescription": "Collaborative interface design tool",
+    "category": "Design",
+    "categories": [
+      "Design",
+      "UI/UX",
+      "Collaboration"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Starter",
+        "price": "$0"
+      },
+      {
+        "name": "Professional",
+        "price": "$12/editor/mo"
+      },
+      {
+        "name": "Organization",
+        "price": "$45/editor/mo"
+      }
+    ],
+    "officialUrl": "https://figma.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.8,
+    "featured": true,
+    "tags": [
+      "design",
+      "ui-ux",
+      "collaboration",
+      "prototyping"
+    ]
+  },
+  {
+    "id": "sketch",
+    "name": "Sketch",
+    "slug": "sketch",
+    "description": "Vector design tool for digital products (Mac only)",
+    "shortDescription": "Professional design tool for Mac",
+    "category": "Design",
+    "categories": [
+      "Design",
+      "UI/UX",
+      "Mac"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Standard",
+        "price": "$12/editor/mo"
+      }
+    ],
+    "officialUrl": "https://sketch.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": false,
+    "tags": [
+      "design",
+      "mac",
+      "ui-ux",
+      "vector"
+    ]
+  },
+  {
+    "id": "adobe-xd",
+    "name": "Adobe XD",
+    "slug": "adobe-xd",
+    "description": "UI/UX design and prototyping tool by Adobe",
+    "shortDescription": "Adobe's UI/UX design platform",
+    "category": "Design",
+    "categories": [
+      "Design",
+      "UI/UX",
+      "Prototyping"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Single App",
+        "price": "$9.99/mo"
+      }
+    ],
+    "officialUrl": "https://adobe.com/products/xd.html",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "design",
+      "adobe",
+      "ui-ux",
+      "prototyping"
+    ]
+  },
+  {
+    "id": "spline",
+    "name": "Spline",
+    "slug": "spline",
+    "description": "3D design tool for web with real-time collaboration",
+    "shortDescription": "Create 3D designs for the web",
+    "category": "Design",
+    "categories": [
+      "Design",
+      "3D",
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$9/mo"
+      }
+    ],
+    "officialUrl": "https://spline.design",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "3d",
+      "web-design",
+      "collaboration",
+      "real-time"
+    ]
+  },
+  {
+    "id": "uizard",
+    "name": "Uizard",
+    "slug": "uizard",
+    "description": "AI-powered UI design tool generating designs from text",
+    "shortDescription": "Design apps and websites with AI",
+    "category": "Design",
+    "categories": [
+      "Design",
+      "AI Generation",
+      "UI/UX"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$12/mo"
+      },
+      {
+        "name": "Team",
+        "price": "$39/user/mo"
+      }
+    ],
+    "officialUrl": "https://uizard.io",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.4,
+    "featured": true,
+    "tags": [
+      "ai-design",
+      "ui-generation",
+      "text-to-design",
+      "prototyping"
+    ]
+  },
+  {
+    "id": "looka",
+    "name": "Looka",
+    "slug": "looka",
+    "description": "AI logo maker and brand identity designer",
+    "shortDescription": "AI-powered logo and brand designer",
+    "category": "Design",
+    "categories": [
+      "Design",
+      "Branding",
+      "Logo"
+    ],
+    "pricing": "Paid",
+    "pricingTiers": [
+      {
+        "name": "Basic",
+        "price": "$20 one-time"
+      },
+      {
+        "name": "Premium",
+        "price": "$65 one-time"
+      }
+    ],
+    "officialUrl": "https://looka.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": false,
+    "tags": [
+      "logo",
+      "branding",
+      "ai-design",
+      "identity"
+    ]
+  },
+  {
+    "id": "namelix",
+    "name": "Namelix",
+    "slug": "namelix",
+    "description": "AI business name generator with logo creation",
+    "shortDescription": "Generate business names with AI",
+    "category": "Business",
+    "categories": [
+      "Business",
+      "Branding",
+      "AI Generation"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      }
+    ],
+    "officialUrl": "https://namelix.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.3,
+    "featured": false,
+    "tags": [
+      "naming",
+      "business",
+      "ai-generation",
+      "branding"
+    ]
+  },
+  {
+    "id": "uxpressia",
+    "name": "UXPressia",
+    "slug": "uxpressia",
+    "description": "Customer journey mapping and persona creation tool",
+    "shortDescription": "Map customer journeys and personas",
+    "category": "Design",
+    "categories": [
+      "Design",
+      "UX",
+      "Customer Experience"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Professional",
+        "price": "$20/user/mo"
+      }
+    ],
+    "officialUrl": "https://uxpressia.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": false,
+    "tags": [
+      "customer-journey",
+      "personas",
+      "ux",
+      "mapping"
+    ]
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "slug": "miro",
+    "description": "Online whiteboard for team collaboration with AI templates",
+    "shortDescription": "Collaborative online whiteboard",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Collaboration",
+      "Whiteboard"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Starter",
+        "price": "$8/member/mo"
+      },
+      {
+        "name": "Business",
+        "price": "$16/member/mo"
+      }
+    ],
+    "officialUrl": "https://miro.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": true,
+    "tags": [
+      "whiteboard",
+      "collaboration",
+      "brainstorming",
+      "visual"
+    ]
+  },
+  {
+    "id": "figjam",
+    "name": "FigJam",
+    "slug": "figjam",
+    "description": "Online whiteboard by Figma for diagramming and brainstorming",
+    "shortDescription": "Figma's collaborative whiteboard",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Collaboration",
+      "Whiteboard"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Starter",
+        "price": "$0"
+      },
+      {
+        "name": "Professional",
+        "price": "$3/editor/mo"
+      }
+    ],
+    "officialUrl": "https://figma.com/figjam",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": false,
+    "tags": [
+      "whiteboard",
+      "figma",
+      "collaboration",
+      "brainstorming"
+    ]
+  },
+  {
+    "id": "whimsical",
+    "name": "Whimsical",
+    "slug": "whimsical",
+    "description": "Visual workspace for flowcharts, wireframes, and mind maps",
+    "shortDescription": "Visual workspace for thinking",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Diagramming",
+      "Wireframing"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Pro",
+        "price": "$12/mo"
+      }
+    ],
+    "officialUrl": "https://whimsical.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.7,
+    "featured": false,
+    "tags": [
+      "flowcharts",
+      "wireframes",
+      "mind-maps",
+      "visual"
+    ]
+  },
+  {
+    "id": "lucidchart",
+    "name": "Lucidchart",
+    "slug": "lucidchart",
+    "description": "Diagramming and flowchart creation with team collaboration",
+    "shortDescription": "Professional diagramming tool",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Diagramming",
+      "Flowcharts"
+    ],
+    "pricing": "Freemium",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      },
+      {
+        "name": "Individual",
+        "price": "$7.95/mo"
+      },
+      {
+        "name": "Team",
+        "price": "$9/user/mo"
+      }
+    ],
+    "officialUrl": "https://lucidchart.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.5,
+    "featured": false,
+    "tags": [
+      "diagramming",
+      "flowcharts",
+      "collaboration",
+      "professional"
+    ]
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "slug": "excalidraw",
+    "description": "Virtual whiteboard for sketching hand-drawn diagrams",
+    "shortDescription": "Hand-drawn style diagrams",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Whiteboard",
+      "Open Source"
+    ],
+    "pricing": "Free",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      }
+    ],
+    "officialUrl": "https://excalidraw.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.8,
+    "featured": true,
+    "tags": [
+      "whiteboard",
+      "hand-drawn",
+      "free",
+      "open-source"
+    ]
+  },
+  {
+    "id": "tldraw",
+    "name": "tldraw",
+    "slug": "tldraw",
+    "description": "Tiny little drawing app with infinite canvas",
+    "shortDescription": "Simple infinite canvas drawing",
+    "category": "Productivity",
+    "categories": [
+      "Productivity",
+      "Whiteboard",
+      "Open Source"
+    ],
+    "pricing": "Free",
+    "pricingTiers": [
+      {
+        "name": "Free",
+        "price": "$0"
+      }
+    ],
+    "officialUrl": "https://tldraw.com",
+    "logoUrl": "/placeholder-logo.svg",
+    "rating": 4.6,
+    "featured": false,
+    "tags": [
+      "drawing",
+      "whiteboard",
+      "free",
+      "minimal"
+    ]
+  }
+]
