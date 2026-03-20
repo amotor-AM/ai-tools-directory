@@ -38,6 +38,14 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Article #21: Best AI Chatbots 2026 -->
+  <url>
+    <loc>https://amotor-am.github.io/ai-tools-directory/articles/best-ai-chatbots-2026</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Article #3: Frase Review -->
   <url>
     <loc>https://amotor-am.github.io/ai-tools-directory/articles/frase-review</loc>
